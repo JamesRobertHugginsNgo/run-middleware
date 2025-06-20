@@ -1,0 +1,28 @@
+{
+  "name": "run-middleware",
+  "version": "1.0.0",
+  "description": "MIT License. See [LICENSE](LICENSE) for more details.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesRobertHugginsNgo/run-middleware.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JamesRobertHugginsNgo/run-middleware/issues"
+  },
+  "homepage": "https://github.com/JamesRobertHugginsNgo/run-middleware#readme",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json && prettier --single-quote --write ./dist/**/*.[tj]s",
+    "watch": "tsc --project ./tsconfig.json --watch",
+    "sample-build": "tsc --project ./sample/tsconfig.json && prettier --single-quote --write ./sample/dist/**/*.[tj]s",
+    "sample-watch": "tsc --project ./sample/tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  }
+}
